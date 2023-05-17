@@ -15,7 +15,7 @@ class DiceTest {
     }
 
     @Test
-    fun testDice(){
+    fun initValue_12(){
         assertThrows<IllegalArgumentException>{
             val dice = Dice(12)
             println("value: ${dice.value}")
